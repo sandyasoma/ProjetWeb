@@ -1,3 +1,168 @@
+/*----------------------------------------------------------------*/
+	
+		/* CORPS DU SITE */
+
+/*----------------------------------------------------------------*/
 body {
-    min-width: 320px;
+	text-align: center;
+	float: center;
+
 }
+html { 
+color:black;
+  margin:0;
+  padding:0;
+  background: url(../images/estadio.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  
+}
+
+
+/*----------------------------------------------------------------*/
+
+		/* LOGO */
+
+/*----------------------------------------------------------------*/
+
+
+#logo{
+	width:100px;/*6%;*/
+	height:90px;/*6%;*/
+	float:left;
+	display: inline;
+	margin-left:10%;
+	margin-top:19px;
+}
+
+
+
+/*----------------------------------------------------------------*/
+
+		/* PRESENTATION */
+
+/*----------------------------------------------------------------*/
+
+h1{
+	text-align:center;
+	font-size:400%;
+	font-family:Copperplate;
+	font-weight: bold;
+	float: center;
+}
+
+p{
+	font-family:Trebuchet MS;
+	text-align: center;
+	font-size:100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	Line-Height: 30pt;
+	font-style:bold;
+	font-weight: bold;
+}
+b{
+	font-family:Trebuchet MS;
+	text-align: center;
+	font-size:100%;
+	font-weight: bold;
+}	
+
+a.bouton5 {
+display: block;
+width: 150px;
+line-height: 40px;
+background: url(http://2.bp.blogspot.com/-i0uDtWEeyLE/VoUt32pSFkI/AAAAAAAADUM/obESNovWmiM/s1600/bouton-orange.png);
+color: #000000;
+-webkit-transition: all 0.7s ease-out 0s;
+-moz-transition: all 0.7s ease-out 0s;
+transition: all 0.7s ease-out 0s;
+font-weight: bold;
+text-align: center;
+float:center;
+font-family:Copperplate;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+a.bouton5:hover {
+background: url(http://3.bp.blogspot.com/-FzfYdG3-fyU/VoUt30PxyfI/AAAAAAAADUI/6R-bHnZI630/s1600/bouton-orange2.png);
+color: #CC5500;
+
+}
+div.block {
+	border-radius: 10px;
+	
+}
+
+input.bold { 
+display: block;
+width: 150px;
+line-height: 40px;
+background: url(http://2.bp.blogspot.com/-i0uDtWEeyLE/VoUt32pSFkI/AAAAAAAADUM/obESNovWmiM/s1600/bouton-orange.png);
+color: #000000;
+-webkit-transition: all 0.7s ease-out 0s;
+-moz-transition: all 0.7s ease-out 0s;
+transition: all 0.7s ease-out 0s;
+font-weight: bold;
+text-align: center;
+float:center;
+font-family:Copperplate;
+margin-left: auto;
+margin-right: auto;
+}
+
+input.bold:hover {
+background: url(http://3.bp.blogspot.com/-FzfYdG3-fyU/VoUt30PxyfI/AAAAAAAADUI/6R-bHnZI630/s1600/bouton-orange2.png);
+color: #CC5500;
+
+}
+input.boutonAccueil { 
+display: block;
+width: 250px;
+line-height: 40px;
+color: #000000;
+-webkit-transition: all 0.7s ease-out 0s;
+-moz-transition: all 0.7s ease-out 0s;
+transition: all 0.7s ease-out 0s;
+font-weight: bold;
+text-align: center;
+float:center;
+font-family:Copperplate;
+margin-left: auto;
+margin-right: auto;
+background-color: #CC5500;
+border-radius: 10px;
+
+}
+
+/*----------------------------------------------------------------*/
+
+		/* MENU */
+
+/*----------------------------------------------------------------*/
+
+#navigation li {
+	display: inline ;
+  margin-right: 50px ;
+  color: #FEFEFE;
+  background: #CC5500 ;
+  font-family:Copperplate;
+  font-weight: bold;
+  font-size:150%;
+  
+ 
+}
+
+
+#CopyrightBas 
+{ 
+color: black;
+font-family:Trebuchet MS;
+text-align: center;
+margin-top: 700px;
+font-weight: bold;
+} 
+
