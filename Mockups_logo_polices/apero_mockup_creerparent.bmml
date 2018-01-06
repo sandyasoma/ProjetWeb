@@ -1,0 +1,38 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="491" measuredH="424" mockupW="450" mockupH="400">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="41" y="24" w="-1" h="-1" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7880452</color>
+        <text>APERO%0Ahttp%3A//apero.fr</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="58" y="141" w="62" h="38" measuredW="167" measuredH="128" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::MenuBar" x="177" y="149" w="-1" h="-1" measuredW="235" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enfants%2C%20Produits%2C%20Param%E8tres</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="169" y="206" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::LineOfText" x="169" y="227" w="-1" h="-1" measuredW="200" measuredH="27" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="167" y="261" w="-1" h="-1" measuredW="81" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mot%20de%20passe</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::LineOfText" x="165" y="288" w="-1" h="-1" measuredW="200" measuredH="27" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="230" y="332" w="-1" h="-1" measuredW="65" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ajouter</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

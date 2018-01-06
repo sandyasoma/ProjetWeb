@@ -1,0 +1,44 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="769" measuredH="661" mockupW="548" mockupH="630">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="221" y="31" w="548" h="630" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7880452</color>
+        <text>APERO%0Ahttp%3A//apero.fr</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="247" y="121" w="95" h="41" measuredW="167" measuredH="128" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::MenuBar" x="394" y="162" w="-1" h="-1" measuredW="235" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Enfants%2C%20Produits%2C%20Param%E8tres</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="282" y="266" w="-1" h="-1" measuredW="27" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nom</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::LineOfText" x="282" y="302" w="-1" h="-1" measuredW="200" measuredH="27" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="282" y="344" w="-1" h="-1" measuredW="95" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quantit%E9%20initiale</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::LineOfText" x="282" y="373" w="-1" h="-1" measuredW="200" measuredH="27" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="284" y="413" w="-1" h="-1" measuredW="102" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Prix%20de%20vente%20%28%u20AC%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::LineOfText" x="282" y="441" w="-1" h="-1" measuredW="200" measuredH="27" zOrder="8" locked="false" isInGroup="-1"/>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Button" x="329" y="486" w="-1" h="-1" measuredW="57" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Cr%E9er</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
