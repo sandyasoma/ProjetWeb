@@ -19,9 +19,9 @@
 	<h1>Ajouter ou Supprimer un produit dans la commande</h1>
 	<nav>
 	<ul>
-  <li><a href="formulaire_ajouterousupprimermembre.php" title="aller à la section 1">Consulter compte enfant</a></li>
-  <li><a href="formulaire_creer_produit.php" title="aller à la section 2">Ajouter/Supprimer Produit</a></li>
-  <li><a href="formulaire_reinitialisation.php" title="aller à la section 3">Créer/Supprimer Compte enfant</a></li>
+  <li><a href="consulter_enfant.php" title="aller à la section 1">Consulter compte enfant</a></li>
+  <li><a href="ajouter_supprimerProduit.php" title="aller à la section 2">Ajouter/Supprimer Produit</a></li>
+  <li><a href="formulaire_ajouterousupprimerenfant.php" title="aller à la section 3">Créer/Supprimer Compte enfant</a></li>
 </ul>
 </nav>
 <!--affichage du tableau avec tous les produits-->

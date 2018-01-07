@@ -66,7 +66,7 @@
 </br>
 </br>			
 		<input type = "submit"
-			   value = "Insérer"/>
+			   value = "Insérer" class="bold"/>
 </form>
 </br>
 </br>
