@@ -12,7 +12,7 @@ html {
 color:black;
   margin:0;
   padding:0;
-  background: url(../images/estadio.jpg) no-repeat center fixed; 
+  background: url(../images/pel2.jpg) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
@@ -337,7 +337,7 @@ div.block {
 	height: 310px;
 	/* multiple background */
 	background: url(../images/image_slide9.jpg) 0 0 no-repeat,
-	            url(../images/image_slide1.jpg) 640px 0 no-repeat,
+	            url(../images/image_slide7.jpg) 640px 0 no-repeat,
 	            url(../images/image_slide2.jpg) 1280px 0 no-repeat,
 	            url(../images/image_slide6.jpg) 1920px 0 no-repeat;
 	transition: background 1s;

@@ -9,6 +9,7 @@
 		</head>
 
 		<body>
+	
 		
 		<div class="block" style="background-color: rgba(255, 255, 255, 0.5)">
 		<!--Lien Logo-->
@@ -49,7 +50,7 @@
 
 						</figure>
 						<figure>
-							<img src="../images/image_slide1.jpg" alt="" width="640" height="310" />
+							<img src="../images/image_slide7.jpg" alt="" width="640" height="310" />
 						</figure>
 						<figure>
 							<img src="../images/image_slide2.jpg" alt="" width="640" height="310" />
@@ -77,7 +78,8 @@
 		</br>
 	
 	
-	</div>		
+	</div>
+	
 	</body>
 	
 </html>

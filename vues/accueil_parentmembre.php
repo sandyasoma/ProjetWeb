@@ -25,12 +25,12 @@
 		   value = "Consulter compte enfant" id="reset" class="boutonAccueil"/>
 </form>
 </br>
-<form method = "post" action="consulter_enfant.php">
+<form method = "post" action="ajouter_supprimerProduit.php">
 	<input type = "submit"
 		   value = "Ajouter/Supprimer un produit" id="reset" class="boutonAccueil"/>
 </form>
 </br>
-<form method = "post" action="consulter_enfant.php">
+<form method = "post" action="formulaire_ajouterousupprimerenfant.php">
 	<input type = "submit"
 		   value = "Créer/Supprimer un enfant" id="reset" class="boutonAccueil"/>
 </form>

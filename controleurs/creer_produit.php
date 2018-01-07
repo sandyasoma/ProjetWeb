@@ -3,7 +3,7 @@
 	require_once('../modeles/membre.php');
 	require_once('../modeles/connexion_bd.php');
 
-	$nom = $_POST['nom'];
+	
 	$qte = $_POST['qte'];
 	$prix = $_POST['prix'];
 	
@@ -19,7 +19,7 @@
 		</script>
 		<?php
 	}
-	else if (!preg_match("[a-z]", $_POST['nom']))
+	else if (!preg_match("#[a-z]#i", $_POST['nom']))
 	{
 	?>
 		<script>
@@ -31,22 +31,25 @@
 	else 
 	{	
 	$estValide_nom = true;
-	$login = $_POST['nom'];
+	$nom = $_POST['nom'];
 	
 	}
 
 	
-	$requete = mysqli_query($co, "SELECT numUtilisateur FROM Utilisateur WHERE loginUtilisateur = '".$login."' AND mdpUtilisateur = '".$password."'") or die ("erreur SELECT");
-	$nombre_utilisateur = mysqli_num_rows($requete);
+	$requete = mysqli_query($co, "SELECT numProduit FROM Produit WHERE nomProduit = '".$nom."'") or die ("erreur SELECT");
+	$nombre_produit = mysqli_num_rows($requete);
 
 
 	
-	if ($estValide_Login and $nombre_utilisateur < 1 )
+	if ($estValide_nom and $nombre_produit < 1 )
 	{
-		$nouveau_membre = new membre($co,$login,$password);
+		$id = mysqli_insert_id($co);
+		$requete2= mysqli_query($co,"INSERT INTO Produit (numProduit, nomProduit,qteProduitDispo,prixVenteProduit) 
+			VALUES ('".$id."','".$nom."','".$qte."','".$prix."')") or die( "erreur INSERT");
+			mysqli_close($co);
 	}
 	
-	else if ($nombre_utilisateur == 1)
+	else if ($nombre_produit == 1)
 	{
 		?>
 		<script>

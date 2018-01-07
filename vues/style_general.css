@@ -12,7 +12,7 @@ html {
 color:black;
   margin:0;
   padding:0;
-  background: url(../images/estadio.jpg) no-repeat center fixed; 
+  background: url(../images/Stade-de-France-rugby.jpg) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
   
@@ -46,9 +46,10 @@ color:black;
 h1{
 	text-align:center;
 	font-size:400%;
-	font-family:Copperplate;
+	font-family:Polibrush;
 	font-weight: bold;
 	float: center;
+	margin-right:10%;
 }
 
 p{
@@ -121,7 +122,7 @@ color: #CC5500;
 }
 input.boutonAccueil { 
 display: block;
-width: 250px;
+width: 300px;
 line-height: 40px;
 color: #000000;
 -webkit-transition: all 0.7s ease-out 0s;
@@ -143,19 +144,57 @@ border-radius: 10px;
 		/* MENU */
 
 /*----------------------------------------------------------------*/
-
-#navigation li {
-	display: inline ;
-  margin-right: 50px ;
-  color: #FEFEFE;
-  background: #CC5500 ;
-  font-family:Copperplate;
-  font-weight: bold;
-  font-size:150%;
-  
- 
+nav ul{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	 background-color: #333333;
+}
+nav li{
+	font-family:Copperplate;
+	display: inline-block ;
+	width:400px;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	border-right:1px solid #CCCCCC;
+	text-align:center;
+	line-height:40px;
+	
+	
+}
+nav li :hover {
+	background-color: #3388BB;
 }
 
+nav li a{
+	display:block;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.tableau{
+float:right;
+margin-right: 10%;
+font-family:Trebuchet MS;
+	text-align: center;
+	font-size:100%;
+	border-style:;
+}
+#btnCo{
+    cursor: pointer;
+    height: 60px;
+    width:250px;
+    line-height:50px;
+    text-align:center;
+    text-decoration: none;
+    color:black;
+    font-size: 120%;
+    border-radius: 75px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgba(0,0,0,0);
+}
 
 #CopyrightBas 
 { 
