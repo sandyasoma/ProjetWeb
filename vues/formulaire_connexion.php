@@ -20,6 +20,16 @@
 			</br>
 	<h1>Connexion</h1>
 
+	<p> <b> Votre statut : </b> <br> </p>
+	<input type = "radio"
+			name = "statut" id = "parent_membre" value = "parent_membre"/>
+			<label for = "parent_membre"><b> Parent membre </b></label>
+	
+	<input type = "radio"
+			name = "statut" id = "president" value = "president"/>
+			<label for = "president"><b> Président </b></label>
+	<br>
+
 	<p> <b>Login</b> </br> </p>
 	<input type = "text"
 			name = "login"/>

@@ -25,12 +25,12 @@
 <!--formulaire création produit-->
 <form method="post" action="../controleurs/creer_produit.php">
 	<input type = "radio"
-			name = "statut" id = "parent_membre" value = "parent_membre"/>
-			<label for = "parent_membre"><b> Goûter </b></label>
+			name = "statut" id = "gouter" value = "gouter"/>
+			<label for = "gouter"><b> Goûter </b></label>
 	
 	<input type = "radio"
-			name = "statut" id = "president" value = "president"/>
-			<label for = "president"><b> Produit brut </b></label>
+			name = "statut" id = "produit" value = "produit"/>
+			<label for = "produit"><b> Produit brut </b></label>
 			
 		<p> <b>Nom</b> <br> </p>
 	<input type = "text"
@@ -43,6 +43,55 @@
 	<p> <b>Prix de vente </b> <br> </p>
 	<input type = "text"
 			name = "prix"/>
+			
+	<input type = "submit"
+			   value = "Ajouter" class="bold"/>
+	</form>
+			   
+	<!--Formulaire modif-->
+<form method="post" action="../controleurs/modif_produit.php">
+	
+<?php
+	include '../modeles/connexion_bd.php';
+	$affichage = mysqli_query($co,'SELECT * FROM produit ORDER BY nomProduit ') or die ("erreur requete");
+
+	echo'<label for = "liste_produits"> <b>Liste des produits</b></label> </br> <select name="liste_produits" id="liste_produits">';
+	while ($row = mysqli_fetch_assoc($affichage))
+	{
+		 echo '<option value="'.$row['nomProduit'].'">'.$row['nomProduit'].'</option>';
+	}
+	mysqli_close($co);
+?>
+	
+</select>
+
+	<?php
+	include '../modeles/connexion_bd.php';
+	$affichage = mysqli_query($co,'SELECT * FROM produit ORDER BY nomProduit ') or die ("erreur requete");
+echo "<table>
+			    <tr>
+					<th>Nom du produit</th>
+				    <th>Quantité</th>
+					<th>Stock</th>
+					
+			    </tr>";
+				
+				// Afficher les résultats
+				while ($row = mysqli_fetch_assoc($affichage)) {
+					echo "<tr>
+							<td>".$row['nomProduit']."</td>
+							<td>".$row['qteProduitDispo']."</td>
+							<td>".$row['prixVenteProduit']."</td>
+							
+						</tr>";
+					}
+				echo "</table>";
+
+				mysqli_close($co); //fermeture de la connexion		
+?>
+<input type = "submit"
+			   value = "Modifier" class="bold"/>
+	</form>
 
 <div id="CopyrightBas">©Rugby Apero Orsay</div>
 	</div>

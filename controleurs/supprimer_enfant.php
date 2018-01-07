@@ -6,5 +6,6 @@
 
 	$selectionne = $_POST['liste_enfants'];
 	$suppression = mysqli_query($co,"DELETE FROM Enfant WHERE prenomEnfant = '".$selectionne."'");
+	mysqli_close($co);
 
 ?>
