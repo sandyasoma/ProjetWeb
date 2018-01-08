@@ -31,34 +31,34 @@
 	<form method="post" action="../controleurs/ajoutSolde.php">
 <?php
 	include '../modeles/connexion_bd.php';
-	$affichage = mysqli_query($co,'SELECT prenomEnfant FROM Enfant ORDER BY prenomEnfant ') or die ("erreur requete");
+	$affichage = mysqli_query($co,'SELECT prenomEnfant,nomEnfant FROM Enfant ORDER BY prenomEnfant ') or die ("erreur requete");
 	echo'<label for = "liste_enfants"><b> Liste des enfants membres </b></label> </br> <select name="liste_enfants" id="liste_enfants">';
 	while ($row = mysqli_fetch_assoc($affichage))
 	{
-		 echo '<option>'.$row['prenomEnfant'].'</option>';
+		 echo "<option value = '".$row['prenomEnfant']."'>".$row['prenomEnfant']." ".$row['nomEnfant']."</option>";
 	}
 	?>
 	</select>
 </br>
 </br>
-<p> <b>Modifier Solde : </b>  </p>
+<p> <b>Modifier Apport : </b>  </p>
 	<input type = "text"
 			name = "soldeNouveau"/>
 </br>	
 </br>		
 		<input type = "submit"
-			   value = "Modifier" class="bold"/>
+			   value = "Modifier" class="boutonAccueil"/>
 </form>
 </br>
 </br>
 <form method="post" action="">
 <?php
 	include '../modeles/connexion_bd.php';
-	$affichage = mysqli_query($co,'SELECT prenomEnfant FROM Enfant ORDER BY prenomEnfant ') or die ("erreur requete");
+	$affichage = mysqli_query($co,'SELECT prenomEnfant,nomEnfant FROM Enfant ORDER BY prenomEnfant ') or die ("erreur requete");
 	echo'<label for = "liste_enfants"><b> Liste des enfants membres </b></label> </br> <select name="liste_enfants" id="liste_enfants">';
 	while ($row = mysqli_fetch_assoc($affichage))
 	{
-		 echo '<option>'.$row['prenomEnfant'].'</option>';
+		 echo "<option value = '".$row['prenomEnfant']."'>".$row['prenomEnfant']." ".$row['nomEnfant']."</option>";
 	}
 	?>
 	</select>
@@ -89,7 +89,7 @@ if (isset($_POST['affichage']))
 </br>
 </br>
 </form>
-<form method="post" action="">		
+<form method="post" action="ajouter_supprimerProduit.php">		
 		<input type = "submit"
 			   value = "Faire une commande"
 			   name = "command" class="boutonAccueil"/>
